@@ -1,7 +1,5 @@
 # LSEngineSilkNET
-Realtime renderer based on 
-
-[Silk.NET]: https://github.com/dotnet/Silk.NET	"Silk.NET"
+Realtime renderer based on [Silk.NET]: https://github.com/dotnet/Silk.NET	"Silk.NET"
 
 # Changelog
 
