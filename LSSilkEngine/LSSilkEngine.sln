@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introduction", "LSSilkEngine\Introduction.csproj", "{E9798F23-8740-4D41-A677-B0691BCEEE83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Introduction", "01-Introduction", "{2547FCB0-7AEF-4ECC-A8C7-5246DEA4A20A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{99B02EBF-ADA0-45F9-B410-B63FB4D98E5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroductionAbstraction", "IntroductionAbstraction\IntroductionAbstraction.csproj", "{B1EE914C-7F7A-4CD6-9278-FAC2888B0467}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSSilkEngine.Common", "LSSilkEngine.Common\LSSilkEngine.Common.csproj", "{E85A5CF3-8345-4BF0-80C5-EB2D33D9C6CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shaders", "Shaders", "{43D35AD2-E065-4860-B93E-6744EC7D69C5}"
+	ProjectSection(SolutionItems) = preProject
+		fragShader.glsl = fragShader.glsl
+		vertShader.glsl = vertShader.glsl
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9798F23-8740-4D41-A677-B0691BCEEE83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9798F23-8740-4D41-A677-B0691BCEEE83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9798F23-8740-4D41-A677-B0691BCEEE83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9798F23-8740-4D41-A677-B0691BCEEE83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1EE914C-7F7A-4CD6-9278-FAC2888B0467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1EE914C-7F7A-4CD6-9278-FAC2888B0467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1EE914C-7F7A-4CD6-9278-FAC2888B0467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1EE914C-7F7A-4CD6-9278-FAC2888B0467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E85A5CF3-8345-4BF0-80C5-EB2D33D9C6CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E85A5CF3-8345-4BF0-80C5-EB2D33D9C6CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E85A5CF3-8345-4BF0-80C5-EB2D33D9C6CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E85A5CF3-8345-4BF0-80C5-EB2D33D9C6CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E9798F23-8740-4D41-A677-B0691BCEEE83} = {2547FCB0-7AEF-4ECC-A8C7-5246DEA4A20A}
+		{B1EE914C-7F7A-4CD6-9278-FAC2888B0467} = {2547FCB0-7AEF-4ECC-A8C7-5246DEA4A20A}
+		{E85A5CF3-8345-4BF0-80C5-EB2D33D9C6CE} = {99B02EBF-ADA0-45F9-B410-B63FB4D98E5C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDC9BE17-F8F0-428D-BF15-035400AFA853}
+	EndGlobalSection
+EndGlobal
